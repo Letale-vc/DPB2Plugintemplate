@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="EmptyProject.EmptyProjectGui"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:EmptyProject"
+             mc:Ignorable="d"
+             d:DesignHeight="auto"
+        d:DesignWidth="auto">
+    <!--this allows you to <bind> DataContext of the grid to your settings.-->
+    <!--https://learn.microsoft.com/en-us/dotnet/api/system.windows.frameworkelement.datacontext?view=windowsdesktop-8.0-->
+    <Grid DataContext="{x:Static local:EmptyProjectSettings.Instance}">
+        <StackPanel>
+            <Label Content="Hello, world."></Label>
+            <Button Content="button"
+                    Click="ButtonBase_OnClick"></Button>
+            <!-- https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/?view=netdesktop-8.0 -->
+            <Label Content="{Binding SettingNumber, Mode=TwoWay}"></Label>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "",
+  "classifications": ["DPB2" ],
+  "name": "DPB2 Template Plugin",
+  "identity": "DPB2Project.Plugin",
+  "shortName": "DPB2Project",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "EmptyProject",
+  "preferNameDirectory": true,
+  "symbols": {
+    "namespace": {
+      "type": "parameter",
+      "replaces": "EmptyProject"
+    }
+  }
+}

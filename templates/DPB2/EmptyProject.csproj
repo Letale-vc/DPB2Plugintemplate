@@ -35,7 +35,7 @@
 			<PdbFileName>$(TargetName).pdb</PdbFileName>
 			<SourcePdbPath>$(OutputPath)$(PdbFileName)</SourcePdbPath>
 			<!-- Set destination path to your dpb\Plugins\<YourProjectName> directory -->
-			<DestinationPath>{DPB2}\Plugins\$(ProjectName)</DestinationPath>
+			<DestinationPath>$(DPB2)\Plugins\$(ProjectName)</DestinationPath>
 		</PropertyGroup>
 
 		<!-- Create the destination folder if it doesn't exist -->
@@ -51,25 +51,25 @@
 	<ItemGroup>
 
 		<Reference Include="DreamPoeBot">
-			<HintPath>{DPB2}\DreamPoeBot.dll</HintPath>
+			<HintPath>$(DPB2)\DreamPoeBot.dll</HintPath>
 			<!--do not copy to output directory-->
 			<Private>false</Private>
 		</Reference>
 
 		<Reference Include="log4net">
-			<HintPath>{DPB2}\log4net.dll</HintPath>
+			<HintPath>$(DPB2)\log4net.dll</HintPath>
 			<!--do not copy to output directory-->
 			<Private>false</Private>
 		</Reference>
 
 		<Reference Include="MahApps.Metro">
-			<HintPath>{DPB2}\MahApps.Metro.dll</HintPath>
+			<HintPath>$(DPB2)\MahApps.Metro.dll</HintPath>
 			<!--do not copy to output directory-->
 			<Private>false</Private>
 		</Reference>
 
 		<Reference Include="Newtonsoft.Json">
-			<HintPath>{DPB2}\Newtonsoft.Json.dll</HintPath>
+			<HintPath>$(DPB2)\Newtonsoft.Json.dll</HintPath>
 			<!--do not copy to output directory-->
 			<Private>false</Private>
 		</Reference>

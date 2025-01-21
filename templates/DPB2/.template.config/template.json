@@ -10,11 +10,5 @@
     "type": "project"
   },
   "sourceName": "EmptyProject",
-  "preferNameDirectory": true,
-  "symbols": {
-    "namespace": {
-      "type": "parameter",
-      "replaces": "EmptyProject"
-    }
-  }
+  "preferNameDirectory": true
 }

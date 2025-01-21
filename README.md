@@ -1,5 +1,3 @@
-README
-
 Overview
 
 This document provides instructions on how to use and install the DPB2.Plugin.Template package. The template is designed to help developers streamline the process of creating plugins for their applications.

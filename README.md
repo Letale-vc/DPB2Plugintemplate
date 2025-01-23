@@ -28,7 +28,7 @@ setx DPB2 <path-dpb2-folder>
 **Example:**
 
 ```sh
-setx DPB2 "C:\Users\YourUsername\DPB2"
+setx DPB2 "C:\Users\YourUsername\DreamPoeBot2"
 ```
 ## Usage
 

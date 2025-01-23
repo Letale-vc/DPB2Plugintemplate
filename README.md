@@ -16,7 +16,7 @@ dotnet new --install .\DPB2.Plugin.Template.x.x.x.nupkg --force
 - The `--force` option ensures that any existing installation of the same template is overwritten.
 - Replace `.\DPB2.Plugin.Template.x.x.x.nupkg` with the full path to the `.nupkg` file if it is not in the current directory.
 
-## Setting the Path
+## Setting the Path (Windows)
 To set the path to the DPB2 folder, run the following command in your terminal:
 ```sh
 setx DPB2 <path-dpb2-folder>

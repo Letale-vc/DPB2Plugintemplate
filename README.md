@@ -9,13 +9,18 @@ To install the template package, run the following command in your terminal:
 ```sh
 dotnet new --install .\DPB2.Plugin.Template.x.x.x.nupkg --force
 ```
-
+ 
 **Notes:**
 
 - Ensure that you have the `.nupkg` file downloaded and located in the specified path (`.\`).
 - The `--force` option ensures that any existing installation of the same template is overwritten.
 - Replace `.\DPB2.Plugin.Template.x.x.x.nupkg` with the full path to the `.nupkg` file if it is not in the current directory.
 
+## Setting the Path
+To set the path to the DPB2 folder, run the following command in your terminal:
+```sh
+setx DPB2 "C:\your_path_to_dpb2folder"
+```
 ## Usage
 
 After successful installation, you can create a new project using this template by executing the following command:

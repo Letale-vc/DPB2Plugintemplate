@@ -7,14 +7,14 @@ This document provides instructions on how to use and install the `DPB2.Plugin.T
 To install the template package, run the following command in your terminal:
 
 ```sh
-dotnet new --install .\DPB2.Plugin.Template.3.0.0.nupkg --force
+dotnet new --install .\DPB2.Plugin.Template.x.x.x.nupkg --force
 ```
 
 **Notes:**
 
 - Ensure that you have the `.nupkg` file downloaded and located in the specified path (`.\`).
 - The `--force` option ensures that any existing installation of the same template is overwritten.
-- Replace `.\DPB2.Plugin.Template.3.0.0.nupkg` with the full path to the `.nupkg` file if it is not in the current directory.
+- Replace `.\DPB2.Plugin.Template.x.x.x.nupkg` with the full path to the `.nupkg` file if it is not in the current directory.
 
 ## Usage
 

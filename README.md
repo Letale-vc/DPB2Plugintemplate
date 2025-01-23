@@ -19,7 +19,16 @@ dotnet new --install .\DPB2.Plugin.Template.x.x.x.nupkg --force
 ## Setting the Path
 To set the path to the DPB2 folder, run the following command in your terminal:
 ```sh
-setx DPB2 "C:\your_path_to_dpb2folder"
+setx DPB2 "<path-dpb2-folder>"
+```
+**Parameters:**
+
+- `<path-dpb2-folder>`: Replace this with the full path to your DPB2 folder.
+- 
+**Example:**
+
+```sh
+setx DPB2 "C:\Users\YourUsername\DPB2"
 ```
 ## Usage
 

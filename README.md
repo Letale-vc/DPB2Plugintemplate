@@ -32,7 +32,7 @@ dotnet new <template-name> -n <project-name>
 **Example:**
 
 ```sh
-dotnet new dpb2plugin -n MyNewPlugin
+dotnet new DPB2Project -n MyNewPlugin
 ```
 
 This will create a new project named `MyNewPlugin` using the `DPB2.Plugin.Template`.
